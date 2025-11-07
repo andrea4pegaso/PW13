@@ -1,8 +1,8 @@
 // script.js
 // Genera dinamicamente il QR code che punta al PDF
-// Assumiamo che il PDF finale sia in ../docs/fattore_rischio.pdf
+// Il PDF finale è disponibile in download/fattore_rischio.pdf
 
-const pdfURL = "../docs/fattore_rischio.pdf";
+const pdfURL = "download/fattore_rischio.pdf";
 
 const qrContainer = document.getElementById("qrcode");
 
