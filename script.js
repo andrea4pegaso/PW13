@@ -2,7 +2,7 @@
 // Genera dinamicamente il QR code che punta al PDF
 // Il PDF finale è disponibile in download/fattore_rischio.pdf
 
-const pdfURL = "download/fattore_rischio.pdf";
+const pdfURL = "https://github.com/andrea4pegaso/PW13/download/fattore_rischio.pdf";
 
 const qrContainer = document.getElementById("qrcode");
 
