@@ -1,35 +1,38 @@
 # PW13
-Tema n. 2 Privacy e sicurezza aziendale 
+Tema num. 2 Privacy e sicurezza aziendale 
 PW 13. Sviluppo di un software mobile-friendly per il calcolo del fattore di rischio
 
 # Calcolo del Fattore di Rischio – Project Work UniPegaso
-
 Questo progetto ha l'obiettivo di:
-- spiegare in modo chiaro il calcolo del fattore di rischio in ambito sicurezza sul lavoro,
-- fornire un documento PDF con riferimenti normativi, formule ed esempi pratici,
-- offrire una pagina web responsive e mobile-friendly che consente di scaricare/visualizzare il PDF,
-- integrare un QR code per l’accesso rapido via smartphone.
+- spiegare in modo chiaro il calcolo del fattore di rischio in ambito sicurezza sul lavoro;
+- fornire un documento PDF con riferimenti normativi, formule ed esempi pratici;
+- offrire una pagina web responsive e mobile-friendly che consente di scaricare/visualizzare il PDF;
+- integrare un QR code per l’accesso rapido al documento.
 
 ## Contenuti principali
-
 - `download/fattore_rischio.pdf`  
-  Documento esplicativo sul calcolo del fattore di rischio (metodo, parametri, esempio numerico).
+  Documento esplicativo sul calcolo del fattore di rischio: PDF con spiegazioni, formule, esempi e riferimenti normativi.
 
 - `index.html`  
-  Interfaccia responsive con:
+  Pagina HTML per il download del documento: Pagina sviluppata in HTML/CSS, ottimizzata per dispositivi mobili (responsive), con link diretto al PDF e QR code integrato per il download rapido da smartphone. 
+  Quindi Interfaccia responsive con:
   - pulsante di download del PDF,
   - QR code generato via JavaScript.
 
 - `test/rapporto_valutazione_test.pdf`  
-  Rapporto finale sul processo di sviluppo, scelte di design, test di usabilità e accessibilità, come richiesto dal Project Work.
+  Rapporto di Valutazione e Test: Valutazione dell’efficacia del documento e dell’interfaccia web, con test di usabilità e accessibilità da desktop e mobile, verifica del funzionamento del QR code e indicazione di eventuali miglioramenti.
+
+## Riferimenti
+- URL: https://andrea4pegaso.github.io/PW13/
+- Repository: https://github.com/andrea4pegaso/PW13
 
 ## Come provare la pagina
-
-1. Apri `https://andrea4pegaso.github.io/PW13/` oppure apri `index.html` in un browser (i.e. Google Chrome)
-3. Scansiona il QR code mostrato nella pagina: deve puntare a `download/fattore_rischio.pdf`.
+1. Aprire la URL `https://andrea4pegaso.github.io/PW13/`
+2. Premere il tasto "Download" per scaricare il file `fattore_rischio.pdf` disponibile sotto `download/fattore_rischio.pdf`
+3. Scansionare il QR code mostrato nella pagina: che punta a `download/fattore_rischio.pdf`.
 
 ## Tecnologie usate
 - HTML5
-- CSS3 (layout responsive con flexbox e media query)
+- CSS3
 - JavaScript
 - Libreria QRCode.js per generare il QR code lato client
