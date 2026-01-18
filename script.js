@@ -1,6 +1,6 @@
 // script.js
 // Genera dinamicamente il QR code che punta al PDF
-// Il PDF finale è disponibile in download/fattore_rischio.pdf
+// Il PDF da scaricare è disponibile in download/fattore_rischio.pdf
 
 const pdfURL = "https://andrea4pegaso.github.io/PW13/download/fattore_rischio.pdf";
 
