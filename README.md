@@ -19,7 +19,11 @@ Questo progetto ha l'obiettivo di:
   - pulsante di download del PDF,
   - QR code generato via JavaScript.
 
-- `test/rapporto_valutazione_test.pdf`  
+- `test/Lighthouse_report.pdf`
+- `test/WAVE Report of Calcolo del Fattore di Rischio.pdf`
+- `test/onlinewebsitepreviewer.png`
+- `test/responsiveviewer.png`
+- `test/responsiveviewer_tablet.png`  
   Rapporto di Valutazione e Test: Valutazione dell’efficacia del documento e dell’interfaccia web, con test di usabilità e accessibilità da desktop e mobile, verifica del funzionamento del QR code e indicazione di eventuali miglioramenti.
 
 ## Riferimenti
